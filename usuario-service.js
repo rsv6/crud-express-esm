@@ -14,7 +14,7 @@ class UsuarioService {
     // let idx = this.usuarios.findIndex(u => u.email == email)
     // this.usuarios.splice(idx, 1)
 
-    // splice:
+    // splice: 
     this.usuarios.splice(this.usuarios.findIndex(u => u.email == email), 1)
   }
 
